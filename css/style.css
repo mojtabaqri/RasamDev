@@ -12,7 +12,7 @@ body{
     font-family: IRANSans !important;
 }
 header{
-    background: url(img/programmerMan.jpg) #0D47A1;
+    background: url(img/programmerMan.jpg);
     background-size: cover;
     background-position: center;
     min-height: 1000px;
@@ -21,7 +21,12 @@ header{
     padding-top: 4vw;
     padding-bottom: 4vw;
 }
-
+.service{
+    padding: 4vw;
+}
+.service>.col{
+    padding: 5vw;
+}
 @media screen and(max-width: 670px) {
     header{
         min-height: 500px;
