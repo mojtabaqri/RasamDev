@@ -8,6 +8,14 @@
     font-weight: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: Vazir;
+    src: url("fonts/Vazir.eot") format("embedded-opentype"), url("fonts/Vazir.woff2") format("woff2"), url("fonts/Vazir.woff") format("woff"), url("fonts/Vazir.ttf") format("truetype");
+    font-weight: 400;
+}
+.vazir_style{
+    font-family: Vazir;
+}
 body{
     font-family: IRANSans !important;
 }
@@ -22,13 +30,21 @@ header{
     padding-bottom: 4vw;
 }
 .service{
-    padding: 4vw;
+    padding: 2vw;
 }
 .service>.col{
-    padding: 5vw;
+    padding: 3vw;
 }
 @media screen and(max-width: 670px) {
     header{
         min-height: 500px;
+        max-height: 700px;
     }
+}
+.col>p{
+    font-family: Vazir;
+    font-size: 0.9rem;
+    line-height: 2.8em;
+    font-weight: 400;
+    font-style: normal;
 }
