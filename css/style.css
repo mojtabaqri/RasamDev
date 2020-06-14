@@ -1,9 +1,9 @@
 @font-face {
     font-family: IRANSans;
-    src: url("/fonts/IRANSansWeb_NoEn.eot?#iefix") format("embedded-opentype"),
-    url("/fonts/IRANSansWeb_NoEn.woff2") format("woff2"),
-    url("/fonts/IRANSansWeb_NoEn.woff") format("woff"),
-    url("/fonts/IRANSansWeb_NoEn.ttf") format("truetype");
+    src: url("fonts/IRANSansWeb_NoEn.eot?#iefix") format("embedded-opentype"),
+    url("fonts/IRANSansWeb_NoEn.woff2") format("woff2"),
+    url("fonts/IRANSansWeb_NoEn.woff") format("woff"),
+    url("fonts/IRANSansWeb_NoEn.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
     font-display: swap;
