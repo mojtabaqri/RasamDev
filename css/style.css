@@ -1,0 +1,29 @@
+@font-face {
+    font-family: IRANSans;
+    src: url("/fonts/IRANSansWeb_NoEn.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/IRANSansWeb_NoEn.woff2") format("woff2"),
+    url("/fonts/IRANSansWeb_NoEn.woff") format("woff"),
+    url("/fonts/IRANSansWeb_NoEn.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+body{
+    font-family: IRANSans !important;
+}
+header{
+    background: url(img/programmerMan.jpg) #0D47A1;
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+@media screen and(max-width: 670px) {
+    header{
+        min-height: 500px;
+    }
+}
