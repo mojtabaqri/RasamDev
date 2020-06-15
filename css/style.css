@@ -38,6 +38,10 @@ header{
 .Codebg{
     max-height: 300px;
 }
+.icon-left{
+    left:0;
+    margin-left: 3vw;
+}
 @media screen and(max-width: 670px) {
     header{
         min-height: 500px;
