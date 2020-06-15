@@ -20,7 +20,7 @@ body{
     font-family: IRANSans !important;
 }
 header{
-    background: url(img/programmerMan.jpg);
+    background: url(img/solarSys.jpg);
     background-size: cover;
     background-position: center;
     min-height: 1000px;
@@ -47,7 +47,14 @@ header{
         min-height: 500px;
         max-height: 700px;
     }
+
 }
+@media screen and (min-width: 670px){
+.current{
+    max-height: 300px;
+}
+}
+
 .col>p{
     font-family: Vazir;
     font-size: 0.9rem;

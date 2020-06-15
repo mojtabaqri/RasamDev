@@ -78,7 +78,7 @@
 <!-----------------------------------------Start Services Box------------------------------------------------>
 <div class="parallax-container center-align">
     <div class="parallax">
-        <img src="css/img/paralax1.jpg" alt="asdasda" class="responsive-img">
+        <img src="css/img/solar.jpg" alt="asdasda" class="responsive-img">
     </div>
     <div class="row service white-text">
         <div class="col s6 l4 ">
@@ -107,6 +107,8 @@
             <i class="large material-icons white-text "> android </i>
             <div class="col s12"><h6>طراحی اپ اندروید</h6></div>
         </div>
+        <div class="clearfix hide-on-med-and-up"></div>
+
 
     </div>
 </div>
@@ -148,9 +150,33 @@
 <!--******************************************End  About Box******************************************************-->
 
 <!--******************************************End Parallax2******************************************************-->
-<div class="parallax-container center-align Codebg " >
-    <div class="parallax">
-        <img src="css/img/paralax4.jpg" alt="asdasda" class="responsive-img">
+<div class="parallax-container center-align  current blue darken-4" >
+
+    <div class="row service white-text" dir="rtl">
+        <div class="col s12 l4 ">
+            <i class="large material-icons white-text "> palette </i>
+            <div class="col s12 " style="display: inline-flex; align-content: center ; justify-content: center">
+                <span class="count"> 160</span>
+                <i class=" material-icons white-text"> add </i>
+            </div>
+            <div class="col s12"><h6>  طراحی گرافیکی   </h6></div>
+        </div>
+        <div class="col s12 l4 ">
+            <i class="large material-icons white-text "> web </i>
+            <div class="col s12 " style="display: inline-flex; align-content: center ; justify-content: center">
+                <span class="count"> 160</span>
+                <i class=" material-icons white-text"> add </i>
+            </div>
+            <div class="col s12"><h6>  وبسایت و پورتال  </h6></div>
+        </div>
+        <div class="col s12 l4 ">
+            <i class="large material-icons white-text "> desktop_windows </i>
+            <div class="col s12 " style="display: inline-flex; align-content: center ; justify-content: center">
+                <span class="count"> 160</span>
+                <i class=" material-icons white-text"> add </i>
+            </div>
+            <div class="col s12"><h6>  نرم افزار  (  اندروید ، مک ، ویندوز ) </h6></div>
+        </div>
     </div>
 </div>
 <!--******************************************End Parallax2 ******************************************************-->
@@ -159,7 +185,7 @@
 
 <section class="section container" id="advice" dir="rtl">
     <div class="row right-align">
-        <div class="col s6 l6 right right-align">
+        <div class="col s12 l6 right right-align">
             <h5 class="indigo-text text-darken-4">ازما مشاوره بگیرید! کاملا رایگان!</h5>
 <!--form-->
             <form action="" >
@@ -190,7 +216,7 @@
 <!--form-->
 
         </div>
-        <div class="col s6 l6 left">
+        <div class="col s12 l6 left">
             <h5 class="indigo-text text-darken-4">رسام داده نوین یزد</h5>
             <p >                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
 
@@ -201,6 +227,8 @@
 
 
 <!--********************************************  End Getting advice Box *****************************************-->
+<!--(((((((((((((((((((((((((_________________Start Attractive features_______________))))))))))))))))))))))))))))-->
+<!--(((((((((((((((((((((((((__________________End Attractive features_______________))))))))))))))))))))))))())))-->
 <!-- End Main Container-->
 <script src="js/jq.js"></script>
 <script src="js/materialize.js"></script>
@@ -210,6 +238,19 @@
         $('.materialboxed').materialbox();
         $(".parallax").parallax();
         $(".tabs").tabs();
+               $('.count').each(function () {
+                   $(this).prop('Counter',0).animate({
+                       Counter: $(this).text()
+                   }, {
+                       duration: 4000,
+                       easing: 'swing',
+                       step: function (now) {
+                           $(this).text(Math.ceil(now));
+                       }
+                   });
+               });
+
+
     })
 </script>
 </body>
